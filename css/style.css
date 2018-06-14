@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');*{font-family:'Open Sans', sans-serif;}
+body{margin:0px 0px 0px;padding:0px;color:#383838;}
+a{color:#000;text-decoration:none;}
+a:hover{color:#900 !important;text-decoration:none;}
+.navbar-brand, .logo{height:65px !important;width:auto;}
+.bg-default{background:#900;}
+.navbar-toggler-icon{color:#fff;border:solid 1px #fff;}
+.navbar-expand-lg .navbar-nav .nav-link{color:#fff;font-weight:600;}
+/* .navbar-ocre{background:#d29b03;width:100%;margin-bottom:-8px;} */
+li .fa-search{height:40px;width:auto;}
+.navbar-nav .nav-link{padding:5px 10px;}
+#header{color:#fff;overflow:auto;}
+.img-add-v{width: 90px; height: auto; margin: 0px -15px;}
+.adds{text-align:center;}
+.adds-marco{padding:10px 0px;border-top:solid 1px #d7d7d7;border-bottom:solid 1px #d7d7d7;}
+.adds-section{text-align:center;padding:10px 0px;border-top:solid 1px #d7d7d7;border-bottom:solid 1px #d7d7d7;}
+.img-destacadas{width:100%;background:#000;}
+.r-img-destacadas{width:100%;background:#900;}
+.g-img-destacadas{width:100%;background:#383838;}
+.b-img-destacadas{width:100%;background:#fff;}
+.o-img-destacadas{width:100%;background:#d29b03;}
+.media{border-bottom:solid 1px #d29b03;width:100%;}
+.r-img-destacadas .media{border-bottom:solid 1px #fff;width:100%;}
+.g-img-destacadas .media{border-bottom:solid 1px #fff;width:100%;}
+.b-img-destacadas .media{border-bottom:solid 1px #d7d7d7;width:100%;}
+.o-img-destacadas .media{border-bottom:solid 1px #fff;width:100%;}
+.destacado-img{border:solid 1px #000;}
+.r-img-destacadas .destacado-img{border:solid 1px #900;}
+.g-img-destacadas .destacado-img{border:solid 1px #383838;}
+.b-img-destacadas .destacado-img{border:solid 1px #fff;}
+.o-img-destacadas .destacado-img{border:solid 1px #d29b03;}
+.media .text-white{color: #fff!important;}
+.r-img-destacadas .media .text-white{color: #fff!important;}
+.g-img-destacadas .media .text-white{color: #fff!important;}
+.b-img-destacadas .media .text-white{color: #000!important;}
+.o-img-destacadas .media .text-white{color: #000!important;}
+.sub-navbar{margin:100px auto 0px;}
+.img-post-opinion{width:180px;height:180px;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;border:solid 1px #ffffff;object-fit:cover;}
+.opacidad{background:#900 !important;padding:8px 10px;text-shadow:1px 2px #400;}
+.f-300{font-weight:300;line-height:1em;}
+.f-300i{font-weight:300;line-height:1em;}
+.f-400{font-weight:400;line-height:1em;}
+.f-400i{font-weight:400;line-height:1em;}
+.f-600{font-weight:600;line-height:1em;}
+.f-600i{font-weight:600;line-height:1em;}
+.f-700{font-weight:700;line-height:1em;}
+.f-700i{font-weight:700;line-height:1em;}
+.f-800{font-weight:800;line-height:1em;}
+.f-800i{font-weight:800;line-height:1em;}
+.t-line{border-top:solid 1px #d7d7d7;}
+.b-line{border-bottom:solid 1px #d7d7d7;}
+.text-inherit{text-indent:inherit;}
+.text-gris{color:#383838;}
+#addLeft{margin-top:-184px;margin-left:-15px;text-align:left;}
+#addLeft img{position: fixed}
+#addRight{margin-top:-184px;text-align:right;}
+#addRight img{position: relative;}
+@media (max-width:575.98px){
+.img-post-view{width:100%;height:217.5px;object-fit:cover;position:center;}
+.destacado-img{height:57.6px;width:57.6px;object-fit:cover;position:center;}
+.img-carrusel{width:100% !important;height:288px;object-fit:cover;position:center;}
+.img-main-post{width:100%;}
+.logo{width: 200px;height: auto;}
+#bigAdd{visibility: hidden;display: none;}
+}
+@media (min-width:576px) and (max-width:767.98px){
+.img-post-view{width:100%;height:112.5px;object-fit:cover;position:center;}
+.destacado-img{height:57.6px !important;width:57.6px;object-fit:cover;position:center;}
+.img-carrusel{width:100% !important;height:320px;object-fit:cover;position:center;}
+.img-main-post{width:100%;}
+#bigAdd{visibility: hidden;display: none;}
+}
+@media (min-width:768px) and (max-width:991.98px){
+.img-post-view{width:100%;height:247.5px;object-fit:cover;position:center;}
+.destacado-img{height:77.4px;width:137,6px;object-fit:cover;position:center;}
+.img-carrusel{width:688px;height:387px;object-fit:cover;position:center;}
+.img-main-post{width:100%;}
+#bigAdd{visibility: hidden;display: none;}
+}
+@media (min-width:992px) and (max-width:1199.98px){
+.img-post-view{width:100%;height:157.5px;object-fit:cover;position:center;}
+.destacado-img{height:60.5px;width:107.555555556px;object-fit:cover;position:center;}
+.img-carrusel{width:540.500px;height:304.03125px;object-fit:cover;position:center;}
+.img-main-post{width:100%;}
+#bigAdd{visibility: hidden;display: none;}
+}
+@media (min-width:1200px){
+.img-post-view{width:100%;height:191.25px;object-fit:cover;position:center;}
+.destacado-img{height:71.61px;width:127.306666667px;object-fit:cover;position:center;}
+.img-carrusel{width:645.516px;height:363.10275px;object-fit:cover;position:center;}
+.img-main-post{width:100%;}
+#bigAdd{visibility: visible;}
+}
+.f-gris{background:#f4f4f4;}
+.f-gris-2-5{background:#f9f9f9;}
+.f-gris-5{background:#f2f2f2;}
+.f-gris-7-5{background:#ececec;}
+.f-gris-10{background:#e6e6e6;}
+.f-gris-20{background:#cccccc;}
+.f-gris-30{background:#b3b3b3;}
+.f-gris-40{background:#999999;}
+.f-gris-50{background:#808080;}
+.f-gris-60{background:#666666;}
+.f-gris-70{background:#4d4d4d;}
+.f-gris-80{background:#333333;}
+.f-gris-90{background:#1a1a1a;}
+.ls-gris{border-top:solid 1px #d7d7d7;}
+.seccion{min-height: 250px;}
+#destacadas{min-height:300px;}
+#actualidad{min-height:300px;}
+#noticias{min-height:300px;}
+#opinion{min-height:300px;}
+#internacional{min-height:300px;}
+#region{min-height:300px;}
+#video{min-height:300px;}
+#al-oido{min-height:300px;}
+#entrevista{min-height:300px;}
+#humor{min-height:300px;}
+#personaje{min-height:300px;}
+#ecos-bogota{min-height:300px;}
+#tecnologia{min-height:300px;}
+#economia{min-height:300px;}
+#gastronomia{min-height:300px;}
+#footer{background:#383838;color:#fff;margin-bottom:-10px;}
+#footer .fab{color:#fff;font-size:2em;margin:0 5px;}
+.creditos{border-top:solid 1px #d29b03;color:#d29b03;}
+.text-ocre{color:#d29b03;}
+.text-rojo{color:#900;}
+.b-ocre{background:#d29b03;}
+.b-rojo{background:#900;}
+.facebook{background:#4267b2;color:#fff;}
+.modal-header .facebook{background:#4267b2;color:#fff;}
+.twitter{background:#1da1f2;color:#fff;}
+.modal-header .twitter{background:#1da1f2;color:#fff;}
+.instagram{background:#262626;color:#fff;}
+.modal-header .instagram{background:#262626;color:#fff;}
+.google{background:#dd5144;color:#fff;}
+.modal-header .google{background:#dd5144;color:#fff;}
+.whatsapp{background:#00e676;color:#fff;}
+.modal-header .whatsapp{background:#00e676;color:#fff;}
+.card{background: transparent;border:0;border-radius:0px;}
+.caja{background: #fff;border:solid 1px #ccc;border-radius:2px;}
+.padding-10{padding: 10px;}
